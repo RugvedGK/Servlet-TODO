@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SignUp</title>
+</head>
+<body>
+<h1>Enter Your Details</h1>
+<form action="signup" method="post">
+<fieldset>
+<table>
+<tbody>
+<tr>
+<th>Name</th>
+<td><input type="text" name="name"></td>
+</tr>
+<tr>
+<th>Email</th>
+<td><input type="email" name="email" required="required"></td>
+</tr>
+<tr>
+<th>Mobile</th>
+<td><input type="tel" pattern="[0-9]{10)" name="mobile" required="required"></td>
+</tr>
+<tr>
+<th>Password</th>
+<td><input type="password" name="password" required="required"></td>
+</tr>
+<tr>
+<th>Gender</th>
+<td><input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+</td>
+</tr>
+<tr>
+<th>Date Of Birth</th>
+<td><input type="date" name="dob" required="required"></td>
+</tr>
+<tr>
+<th>Address</th>
+<td><textarea rows="5" cols="30" name="address"></textarea>
+</tr>
+<tr>
+<td>
+<button>SignUp</button>
+</td>
+<td>
+<button>Cancle</button>
+</td>
+</tr>
+</tbody>
+</table>
+</fieldset>
+</form><br>
+
+<a href="LoginForm.html"><button>Already have Account? Click here to Login</button></a>
+</body>
+</html>
